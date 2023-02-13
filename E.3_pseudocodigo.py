@@ -21,4 +21,8 @@ si no
 
 Postcondicion
     precio < 100 --> Resultado = 0
+    100 <= precio < 500 --> Resultado = precio * 0.05
+    500 <= precio --> Resultado = precio * 0.08
+
+fin descuento
 
